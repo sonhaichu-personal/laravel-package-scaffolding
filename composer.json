@@ -1,0 +1,17 @@
+{
+    "name": "sonhaichu/laravel-package-scaffolding",
+    "description": "Boilerplate template for laravel package",
+    "authors": [
+        {
+            "name": "sonhaichu",
+            "email": "sonhaichu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Package\\": "src/app/"
+        }
+    },
+    "require": {}
+}
