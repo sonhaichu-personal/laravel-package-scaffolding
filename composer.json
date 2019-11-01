@@ -13,5 +13,14 @@
             "Package\\": "src/app/"
         }
     },
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Package\\PackageServiceProvider"
+            ]
+        }
+    }
 }
