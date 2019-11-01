@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Package\\PackageServiceProvider"
+                "Package\\Providers\\PackageServiceProvider"
             ]
         }
     }
